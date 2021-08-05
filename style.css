@@ -1,0 +1,188 @@
+body{
+    margin: 0%;
+}
+#navbar{
+    background-color: white;
+    height: 10vh;
+    padding-top: 4%;
+}
+.sec1{
+    float: left;
+    margin-left: 2%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 1vw;
+}
+a:hover{
+    color: tomato;
+}
+.sec2{
+    float: right;
+    margin-right: 2%;
+}
+#logo{
+    font-size: 4vw;
+    text-align: center;
+    font-weight:bolder;
+    margin-left: 5%;
+}
+#logo:hover{
+    color: black;
+    
+}
+#landing-section{
+    background-color: #F9CB40;
+}
+.home-images{
+    margin-top: 6%;
+}
+#home-gif{
+    border: 10px solid white;
+}
+.gif-content{
+    margin-left: 13.5%;
+    padding-bottom: 5%;
+}
+#colors :hover{
+    color: white;
+}
+/* #colors a{
+    margin-top: 0%;
+} */
+#save a{
+    font-size: 4vw;
+    margin-left: 15%;
+    margin-bottom: 0%;
+
+}
+#save a:hover{
+    color: white;
+
+}
+#your-set{
+    margin-left: 8%;
+}
+#your-set :hover{
+   color: white;
+
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 ;
+  }
+  
+.headwrap-row {
+    /* margin: 0 -5px; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.headwrap-row :after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  
+  text-align: center;
+  
+}
+#card-image{
+    width: 100%;
+    height: 70%;
+}
+.card-title{
+    text-align: center;
+}
+.card-body{
+    text-align: center;
+}
+#section-two{
+    margin-bottom: 10%;
+}
+
+#image-sec{
+    width: 400px;
+    height:50% ;
+    margin-left: 55%;
+}
+.text-section{
+    text-align: center;
+    position: absolute;
+    top: 270%;
+    left: 18%;
+}
+#one{}
+#two{
+    font-size: 4vw;
+    font-weight: bolder;
+    
+}
+#three{
+    font-weight: bold;
+}
+
+#btnShop{
+    margin-top: 10%;
+    height: 5vh;
+    font-size: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solidblack;
+} 
+#btnShop:hover{
+    color: white;
+    background-color: black;
+}
+
+#section-three{
+    margin-bottom: 10%;
+}
+#scrunchie{
+    width: 80%;
+    border: 10px solid white;
+    margin-top: 8%;
+}
+#section-four{
+    background-color: rgb(211, 207, 207);
+    
+}
+#satin a{
+    font-size: 4vw;
+    margin-left: 1%;
+    margin-bottom: 0%;
+    padding: 30px;
+}
+.text-section2{
+    text-align: center;
+    position: absolute;
+    top: 540%;
+    left: 18%;
+}
+#section-five{
+    margin-top: 5%;
+}
+.text-section3{
+    text-align: center;
+    position: absolute;
+    top: 810%;
+    left: 18%;
+}
+#section-three{
+    margin-top: 5%;
+}
