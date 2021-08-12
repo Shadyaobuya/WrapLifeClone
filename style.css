@@ -1,10 +1,16 @@
 body{
     margin: 0%;
+    /* width: 100%; */
 }
 #navbar{
     background-color: white;
     height: 10vh;
     padding-top: 4%;
+    border-bottom: 1px solid rgb(201, 199, 199);
+    position: fixed;
+    width: 100%;
+
+    top: 0%;
 }
 .sec1{
     float: left;
@@ -19,6 +25,32 @@ a{
 a:hover{
     color: tomato;
 }
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+.dropdownLink {
+    display: none;
+    position: absolute;
+    background-color: rgb(240, 62, 62);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdownLink a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+.dropdownLink a:hover {color:white ;}
+
+.dropdown:hover .dropdownLink {display: block;}
+
+.dropdown:hover .drop {color: tomato;}
+  
+
 .sec2{
     float: right;
     margin-right: 2%;
@@ -48,6 +80,7 @@ a:hover{
 }
 #colors :hover{
     color: white;
+    cursor: pointer;
 }
 /* #colors a{
     margin-top: 0%;
@@ -60,6 +93,7 @@ a:hover{
 }
 #save a:hover{
     color: white;
+    cursor: pointer;
 
 }
 #your-set{
@@ -76,7 +110,6 @@ a:hover{
   }
   
 .headwrap-row {
-    /* margin: 0 -5px; */
     display: flex;
     justify-content: space-evenly;
     margin-top: 5%;
@@ -98,7 +131,6 @@ a:hover{
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  
   text-align: center;
   
 }
@@ -185,4 +217,285 @@ a:hover{
 }
 #section-three{
     margin-top: 5%;
+}
+#empty-section{
+    height: 80vh;
+}
+#forest-classic{
+    background-color: rgb(211, 207, 207);
+    height: 50vh;
+}
+#forest-image{
+    width: 30%;
+    height: 80vh;
+    top: 920%;
+    left: 35%;
+    position: absolute;
+    clip: auto;
+
+}
+#forest-text{
+    top: 910%;
+    left: 35%;
+    position: absolute;
+   margin-left: 5%;
+   font-size: 20px;
+}
+.forest{
+    
+    
+    /* width: 70%; */
+}
+#forest-p{
+    top: 998%;
+    left: 35%;
+    position: absolute;
+   margin-left: 5%;
+   font-size: 20px;
+    
+}
+#follow-us{
+    background-color: rgb(211, 207, 207);
+    height: 98vh;
+    
+}
+#emp{
+    height: 90vh;
+    
+}
+#heading-link{
+    text-align: center;
+    font-size: 60px;
+    color: rgb(27, 27, 27);
+   
+
+}
+.head{
+    margin-bottom: 10%;
+    margin-left: 40%;
+    padding-top: 5%;
+}
+#img1{
+    width: 10%;
+    height: 10%;
+    filter: grayscale(100%);
+    -webkit-transition: all 800ms ease;
+}
+#img1:hover{
+    -webkit-transition: all 800ms ease;
+    transition: all 700ms ease;
+    filter: none;
+    cursor: pointer;
+}
+.imgGrayscale img:hover{
+    filter: none;
+
+}
+
+#img2{
+    width: 25%;
+    filter: grayscale(100%);
+    -webkit-transition: all 800ms ease;
+    
+}
+#img2:hover{
+    -webkit-transition: all 800ms ease;
+    transition: all 700ms ease;
+    filter: none;
+    cursor: pointer;
+}
+
+#ima{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+#img3{
+    width: 15%;
+    height: 12%;
+    filter: grayscale(100%);
+    -webkit-transition: all 800ms ease;
+}
+#img3:hover{
+    filter: none;
+    -webkit-transition: all 800ms ease;
+    transition: all 700ms ease;
+    filter: none;
+    cursor: pointer;
+
+}
+
+#img4{
+    width: 20%;
+    height: 15%;
+    filter: grayscale(100%);
+    -webkit-transition: all 800ms ease;
+}
+
+#img4:hover{
+    -webkit-transition: all 800ms ease;
+    transition: all 700ms ease;
+    filter: none;
+    cursor: pointer;
+}
+
+#img5{
+    filter: grayscale(100%);
+    width: 15%;
+    height: 15%;
+    -webkit-transition: all 800ms ease;
+}
+
+#img5:hover{
+    -webkit-transition: all 800ms ease;
+    transition: all 700ms ease;
+    filter: none;
+}
+#hrbottom{
+    border: 1px solid black;
+    background: rgb(34, 34, 34);
+    margin-top: 2%;
+    margin-bottom: -5%;
+}
+
+footer{
+    background-color: white;
+    height: 10vh;
+}
+.footersec{
+    float: right;
+}
+#card-image2{
+    width: 90%;
+    height: 50%;
+}
+.btnTutorial{
+    width: 90%;
+    margin-left: -4%;
+    text-align: center;
+    padding-top: 3%;
+    background-color: transparent;
+}
+.btnTutorial a{
+    font-size: 16px;
+    color: black;
+}
+.text-section-founder{
+    text-align: center;
+    position: absolute;
+    top: 1030%;
+    left: 16%;
+    letter-spacing: 2px;
+    font-size: 18px;
+
+}
+#founder{
+    margin-top: 5%;
+}
+
+#heading1{
+    font-size: 50px;
+}
+#shophr{
+    margin-top: 8%;
+}
+.column-shop{
+    float: left;
+    width: 25%;
+    padding: 0 ;
+}
+
+.btnShop{
+    width: 50vh;
+    height: 8vh;
+    
+}
+.btnShop:hover{
+    background-color: rgb(34, 30, 30);
+    color: white;
+cursor: pointer;
+    
+}
+.cardb:hover{
+    color: tomato;
+    cursor: pointer;
+
+}
+#card-image-b{
+    width: 100%;
+    height: 80%;
+}
+.cardban{
+    width: 80%;
+    height: 80%;
+}
+.cardt{
+    width: 100%;
+    height: 100%;
+}
+.card-turb{
+    width: 100%;
+    height: 100%;
+}
+
+.btnTurb{
+    margin-top: -10%;
+    height: 5vh;
+    font-size: 100%;
+    padding: 5px;
+    background-color: transparent;
+    border: 2px solidblack;
+    width: 100%;
+} 
+.btnTurb:hover{
+    color: white;
+    background-color: black;
+}
+.cardbundles{
+    text-align: center;
+}
+.btnBundles{
+    font-size: 20px;
+    width: 100%;
+    padding-top: 2%;
+    margin-bottom: 5%;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid tomato;
+    color: tomato;
+    height: 8vh;
+}
+.btnBundles:hover{
+    background-color: tomato;
+    color: white;
+    transition: 0.5 ease;
+    
+}
+.giftcardrow{
+    margin-top: 10%;
+    display: flex;
+    
+    
+}
+.columnimg{
+    width: 100%;
+}
+.giftcolumn img{
+    width: 50%;
+}
+.giftcolumn img:hover{
+    cursor: pointer;
+}
+#h{
+  margin-left: -66%;  
+}
+
+
+#giftthumbnail{
+    width: 10%;
+   
+}
+form{
+    margin-left: 5%;
 }
